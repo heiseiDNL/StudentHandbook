@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0072BB"
+    tools:context=".Activity1">
+
+    <TextView
+        android:id="@+id/txtComputerGrade"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="168dp"
+        android:layout_marginBottom="641dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/computegrades"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#000000"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtPrelim"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="147dp"
+        android:layout_marginEnd="249dp"
+        android:layout_marginBottom="552dp"
+        android:text="@string/prelimgrade"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtMidterm"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="215dp"
+        android:layout_marginEnd="227dp"
+        android:layout_marginBottom="484dp"
+        android:text="@string/midtermgrade"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtPreFinal"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginEnd="224dp"
+        android:layout_marginBottom="419dp"
+        android:text="@string/prefinalgrade"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtFinal"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="349dp"
+        android:layout_marginEnd="266dp"
+        android:layout_marginBottom="350dp"
+        android:text="@string/final_grade"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnCompute"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="412dp"
+        android:layout_marginEnd="298dp"
+        android:text="@string/compute"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnClear"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="412dp"
+        android:layout_marginEnd="184dp"
+        android:text="@string/clear"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnCompute"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtbxPrelim"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="134dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="23dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/entergrade"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/txtbxMidterm"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/txtPrelim"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtbxMidterm"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="6dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/entergrade"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/txtMidterm"
+        app:layout_constraintTop_toBottomOf="@+id/txtbxPrelim" />
+
+    <EditText
+        android:id="@+id/txtbxPreFinal"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="6dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/entergrade"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/txtMidterm"
+        app:layout_constraintTop_toBottomOf="@+id/txtbxMidterm" />
+
+    <EditText
+        android:id="@+id/txtbxFinal"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="6dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/entergrade"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/txtMidterm"
+        app:layout_constraintTop_toBottomOf="@+id/txtbxPreFinal" />
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="154dp"
+        android:layout_marginTop="508dp"
+        android:layout_marginEnd="154dp"
+        android:layout_marginBottom="183dp"
+        android:text="RESULT"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

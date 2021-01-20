@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">StudentHandbook</string>
+    <string name="btnNext">Next</string>
+    <string name="IVmain">Main</string>
+    <string name="computegrades">Compute Grades</string>
+    <string name="prelimgrade">Prelim Grade</string>
+    <string name="midtermgrade">Midterm Grade</string>
+    <string name="prefinalgrade">Pre-Final Grade</string>
+    <string name="final_grade">Final Grade</string>
+    <string name="compute">Compute</string>
+    <string name="entergrade">Enter Grade</string>
+    <string name="clear">Clear</string>
+    <string name="from_its_humble_beginnings_on_august_21_1983_as_a_computer_training_center_with_only_two_campuses_sti_now_has_campuses_all_over_the_philippines_and_has_diversified_into_ict_enhanced_programs_in_information_technology_business_and_management_tourism_and_hospitality_management_engineering_and_arts_and_sciences">From its humble beginnings on August 21, 1983 as a computer training center with only two campuses, STI now has campuses all over the Philippines and has diversified into ICT-enhanced programs in Information Technology, Business and Management, Tourism and Hospitality Management, Engineering, and Arts and Sciences.</string>
+    <string name="title_activity_login">Login</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+</resources>
